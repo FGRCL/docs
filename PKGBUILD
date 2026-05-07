@@ -33,6 +33,7 @@ validpgpkeys=()
 
 build() {
 	cd "$pkgname-$pkgver"
+	cargo build --release
 	chmod +x docs.sh
 }
 
