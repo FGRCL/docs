@@ -2,7 +2,7 @@
 name = "docs"
 version = "0.1.0"
 edition = "2024"
-llicense = "MIT OR Apache-2.0"
+license = "MIT OR Apache-2.0"
 description = "Search your man pages and tldr pages with fzf"
 homepage = "https://github.com/FGRCL/docs"
 repository = "https://github.com/FGRCL/docs"
