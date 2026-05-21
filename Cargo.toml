@@ -7,7 +7,7 @@ description = "Search your man pages and tldr pages with fzf"
 homepage = "https://github.com/FGRCL/docs"
 repository = "https://github.com/FGRCL/docs"
 readme = "README.md"
-keywords = ["fzf", "docs", "man", "tldr", "help", "search"]
+keywords = ["fzf", "docs", "man", "tldr", "help"]
 categories = ["command-line-utilities", "command-line-interface"]
 
 [dependencies]
