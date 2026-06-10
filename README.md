@@ -1,8 +1,8 @@
 # docs
 Search your man pages and tldr pages with fzf!
 
-./demo/docs.gif
-./demo/tldocs.gif
+![docs demo](./demo/docs.gif)
+![tldocs demo](./demo/tldocs.gif)
 
 
 ## Installation
