@@ -1,7 +1,9 @@
 # docs
 Search your man pages and tldr pages with fzf!
 
-## Description
+./demo/docs.gif
+./demo/tldocs.gif
+
 
 ## Installation
 
@@ -14,7 +16,7 @@ fzf
 tldr
 ```
 
-#### AAA
+#### AA
 
 ```
 git clone this repo
