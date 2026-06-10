@@ -1,8 +1,8 @@
 Output docs.gif
 
 Set FontSize 16
-Set Width 1920
-Set Height 1080
+Set Width 1280
+Set Height 720
 
 Sleep 2s
 Type "docs"
