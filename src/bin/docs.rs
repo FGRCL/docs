@@ -37,8 +37,6 @@ fn main() {
 fn parse(apropos: String, mut fzf: ChildStdin, delimiter: &str) {
     let regex = Regex::new(r"([^\s^\)]+)\s*\(([^\(]+)\)\s*-\s(.*)").expect("Could not parse regex");
     for (_, [tool, _number, description]) in regex.captures_iter(apropos.as_str()).map(|c| c.extract()) {
-        // std::thread::spawn( |fzf| {
         let _ = fzf.write_all(format!("{}{}{}\n", tool, delimiter, description).as_bytes());
-        // });
     }
 }
