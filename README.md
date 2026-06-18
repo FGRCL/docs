@@ -1,23 +1,36 @@
 # docs
 Search your man pages and tldr pages with fzf!
 
+To search all the man pages on your system interactively:
+```bash
+docs
+```
 ![docs demo](./demo/docs.gif)
-![tldocs demo](./demo/tldocs.gif)
 
+To search all the tldr pages instead:
+```bash
+tldocs
+```
+![tldocs demo](./demo/tldocs.gif)
 
 ## Installation
 
+### Arch
+
+```bash
+pacman -S docs
+```
+
 ### Manual
 
-#### Dependencies
+First, make sure you have the following dependencies installed,
 ```
 rustup
 fzf
 tldr
 ```
 
-#### AA
-
+Then, install the binaries with,
 ```
 git clone this repo
 cd this repo
