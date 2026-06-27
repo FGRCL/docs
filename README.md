@@ -21,6 +21,12 @@ tldocs
 pacman -S docs
 ```
 
+### MacOS
+
+```bash
+brew install fgrcl/homebrew-tap/docs
+```
+
 ### Manual
 
 First, make sure you have the following dependencies installed,
@@ -32,7 +38,7 @@ tldr
 
 Then, install the binaries with,
 ```
-git clone this repo
-cd this repo
+git clone git@github.com:FGRCL/docs.git
+cd docs
 cargo install --path .
 ```
