@@ -1,5 +1,7 @@
 # docs
 Search your man pages and tldr pages with fzf!
+ 
+Docs adds two brings two commands to your shell: `docs` and `tldocs`. `docs` allows your to search all the man pages on your system with fzf's fuzzy search to allow you to quickly find the documentation for the command you need. `tldocs` allows you to do the same thing but with [tldr pages](https://github.com/tldr-pages/tldr), to find quick commands instead of the entire documentation.
 
 To search all the man pages on your system interactively:
 ```bash
