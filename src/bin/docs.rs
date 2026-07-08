@@ -16,7 +16,7 @@ fn main() {
             "--delimiter", delimiter,
             "--accept-nth", "1",
             "--with-nth", "{1} - {2}",
-            "--preview", "man --warnings=!font {1}",
+            "--preview", "man {1}",
         ])
         .stdin(Stdio::piped())
         .stdout(Stdio::piped())
