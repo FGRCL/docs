@@ -20,7 +20,7 @@ tldocs
 ### Arch
 
 ```bash
-pacman -S docs
+paru -S docs
 ```
 
 ### MacOS
